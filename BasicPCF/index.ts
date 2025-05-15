@@ -24,7 +24,10 @@ export class BasicPCF implements ComponentFramework.StandardControl<IInputs, IOu
         state: ComponentFramework.Dictionary,
         container: HTMLDivElement
     ): void {
-        // Add control initialization code
+        this._container = container;
+        const helloDiv = document.createElement("div");
+        helloDiv.innerText = "Hello, World!";
+        this._container.appendChild(helloDiv);
     }
 
 
