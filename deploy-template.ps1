@@ -1,5 +1,3 @@
-
-
 $timestamp = (Get-Date).ToString('yyyy-MM-dd-hh-mm-ss-tt')
 $simpleDir = "./SolutionPackages/PCF_COMPONENT_NAME"                # <-- REPLACE TOKEN! #️⃣ 
 $finalDir = "./SolutionPackages/PCF_COMPONENT_NAME-$timestamp"      # <-- REPLACE TOKEN! #️⃣ 
