@@ -26,7 +26,13 @@ this._container.appendChild(helloDiv);
 # Time to run and play
 npm run build
 npm start
+
+# Create a PowerShell script to build and deploy!
+# deploy.ps1
+
 ```
+
+![screen shot](play.png)
 
 
 

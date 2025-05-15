@@ -30,7 +30,6 @@ export class BasicPCF implements ComponentFramework.StandardControl<IInputs, IOu
         this._container.appendChild(helloDiv);
     }
 
-
     /**
      * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
      * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to names defined in the manifest, as well as utility functions
