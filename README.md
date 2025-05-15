@@ -15,7 +15,17 @@ pac pcf init --namespace YOUR_NAMESPACE_HERE --name YOUR_PCF_COMPONENT_NAME --te
 
 npm install
 
+# Add this to the top of index.tx - line 4, right after the class definition
 private _container: HTMLDivElement;
+# And add this to the init function
+this._container = container;
+const helloDiv = document.createElement("div");
+helloDiv.innerText = "Hello, World!";
+this._container.appendChild(helloDiv);
+
+# Time to run and play
+npm run build
+npm start
 ```
 
 
